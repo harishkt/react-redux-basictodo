@@ -13,6 +13,7 @@ const ToDo = ({ text, completed, onClick}) => {
 		</li>
 	);
 };
+
 ToDo.propTypes = {
 	onClick: PropTypes.func.isRequired,
 	text: PropTypes.string.isRequired,
