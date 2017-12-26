@@ -13,3 +13,4 @@ render(
 	</Provider>,
 	document.getElementById('root'));
 registerServiceWorker();
+console.log(store.getState());
