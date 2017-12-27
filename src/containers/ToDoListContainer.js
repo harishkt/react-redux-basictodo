@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 //Now import different actions
-import { toggleTodo } from '../actions/actions';
+import { toggleTodo } from '../actions/todoActions';
 
 //Import its respective Presentation Component
 import TodoList from '../components/TodoList';
